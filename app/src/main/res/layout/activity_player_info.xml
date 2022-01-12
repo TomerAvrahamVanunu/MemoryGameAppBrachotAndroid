@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.finalprogeti.PlayersInfo">
+
+    <LinearLayout
+        android:id="@+id/linLayPlayersInfo"
+        android:layout_width="388dp"
+        android:layout_height="722dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btSetFirstPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="302dp"
+            android:background="@android:color/holo_red_light"
+            android:onClick="ChangeFirstPlayer"
+            android:text="First Player"
+            android:textColor="@android:color/white"
+            android:textSize="47dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btBack"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:onClick="GoBack"
+                android:text="Return"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/ivVersus"
+                android:layout_width="wrap_content"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/vspic" />
+
+            <Button
+                android:id="@+id/btPlay"
+                android:layout_width="60dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:onClick="Play"
+                android:text="Play"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btSetSecondPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="289dp"
+            android:background="@android:color/holo_blue_light"
+            android:onClick="ChangeSecondPlayer"
+            android:text="Second Player"
+            android:textColor="@android:color/white"
+            android:textSize="47dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.finalprogeti.LevelChoice">
+
+    <LinearLayout
+        android:id="@+id/LevelLinLay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/LevelOnebt"
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:layout_weight="0.4"
+            android:background="@android:color/holo_purple"
+            android:onClick="LevelOne"
+            android:text="1 Player"
+            android:textColor="@android:color/black"
+            android:textSize="85dp" />
+
+        <ImageView
+            android:id="@+id/ivOr"
+            android:layout_width="369dp"
+            android:layout_height="55dp"
+            android:layout_weight="0.1"
+            app:srcCompat="@drawable/orpic" />
+
+        <Button
+            android:id="@+id/LevelTwobt"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_weight="0.4"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="PlayersInfo"
+            android:text="2 Players"
+            android:textColor="@android:color/black"
+            android:textSize="80dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

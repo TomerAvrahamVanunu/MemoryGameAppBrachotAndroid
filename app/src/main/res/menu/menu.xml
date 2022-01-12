@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Ribo1Menu"
+        android:title="Bracha Ad Bli Dai" />
+    <item
+        android:id="@+id/Ribo2Menu"
+        android:title="My Heart" />
+    <item
+        android:id="@+id/Ribo3Menu"
+        android:title="Kol Dodi" />
+    <item
+        android:id="@+id/StopMenu"
+        android:title="Stop music" />
+
+</menu>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.finalprogeti.LevelTwo"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <TableLayout
+        android:id="@+id/tableOneLay"
+        android:layout_width="382dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:stretchColumns="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/ivBack101"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                app:srcCompat="@drawable/cardbackpic" />
+
+            <ImageView
+                android:id="@+id/ivBack102"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                app:srcCompat="@drawable/cardbackpic" />
+
+            <ImageView
+                android:id="@+id/ivBack103"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                app:srcCompat="@drawable/cardbackpic" />
+
+            <ImageView
+                android:id="@+id/ivBack104"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                app:srcCompat="@drawable/cardbackpic" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/ivBack201"
+                android:layout_width="92dp"
+
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                app:srcCompat="@drawable/cardbackpic" />
+
+            <ImageView
+                android:id="@+id/ivBack202"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                app:srcCompat="@drawable/cardbackpic" />
+
+            <ImageView
+                android:id="@+id/ivBack203"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                app:srcCompat="@drawable/cardbackpic" />
+
+            <ImageView
+                android:id="@+id/ivBack204"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                app:srcCompat="@drawable/cardbackpic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivBack301"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                app:srcCompat="@drawable/cardbackpic" />
+
+            <ImageView
+                android:id="@+id/ivBack302"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                app:srcCompat="@drawable/cardbackpic" />
+
+            <ImageView
+                android:id="@+id/ivBack303"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                app:srcCompat="@drawable/cardbackpic" />
+
+            <ImageView
+                android:id="@+id/ivBack304"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                app:srcCompat="@drawable/cardbackpic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivBack401"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                app:srcCompat="@drawable/cardbackpic" />
+
+            <ImageView
+                android:id="@+id/ivBack402"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                app:srcCompat="@drawable/cardbackpic" />
+
+            <ImageView
+                android:id="@+id/ivBack403"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                app:srcCompat="@drawable/cardbackpic" />
+
+            <ImageView
+                android:id="@+id/ivBack404"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:clickable="true"
+                app:srcCompat="@drawable/cardbackpic" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/ivGameOver"
+        android:layout_width="395dp"
+        android:layout_height="312dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tableOneLay"
+        app:layout_constraintEnd_toEndOf="@+id/tableOneLay"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gameover" />
+
+    <ImageButton
+        android:id="@+id/btStart"
+        android:layout_width="83dp"
+        android:layout_height="87dp"
+        android:background="@drawable/startpic"
+        android:onClick="Start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableOneLay"
+        app:layout_constraintVertical_bias="0.569" />
+
+    <Button
+        android:id="@+id/btReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/holo_purple"
+        android:gravity="center"
+        android:onClick="Exit"
+        android:text="Exit"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btRestart"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btRestart"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/restartpic"
+        android:onClick="Restart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btReturn"
+        app:layout_constraintTop_toBottomOf="@+id/tvScore"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvFirstPlayerStats"
+        android:layout_width="190dp"
+        android:layout_height="65dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/btStart"
+        app:layout_constraintStart_toStartOf="@+id/tableOneLay"
+        app:layout_constraintTop_toBottomOf="@+id/tableOneLay"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <TextView
+        android:id="@+id/tvSecondPlayerStats"
+        android:layout_width="190dp"
+        android:layout_height="65dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textColorHighlight="@android:color/holo_blue_dark"
+        android:textSize="30dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/btStart"
+        app:layout_constraintEnd_toEndOf="@+id/btRestart"
+        app:layout_constraintHorizontal_bias="0.651"
+        app:layout_constraintStart_toEndOf="@+id/btStart"
+        app:layout_constraintTop_toBottomOf="@+id/tableOneLay"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <TextView
+        android:id="@+id/tvPlayerTurn"
+        android:layout_width="217dp"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/btRestart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btStart" />
+
+    <TextView
+        android:id="@+id/tvStart"
+        android:layout_width="133dp"
+        android:layout_height="37dp"
+        android:text="Press To Start"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btReturn"
+        app:layout_constraintEnd_toStartOf="@+id/btStart"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFirstPlayerStats" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
